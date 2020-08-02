@@ -1,0 +1,21 @@
+﻿Deep Learning Environment Installation
+
+Steps:
+1. Open Anaconda Prompt (for Windows) or Terminal (for Mac/Linux)
+2. use the following commands in the given order:
+a) conda create -n deeplearning python=3.6 (Create a new environment for deep learning related libraries without altering the base env)
+b) conda activate deeplearning (activate the env)
+c) conda install pandas matplotlib numpy jupyter notebook scipy scikit-learn (install basic libraries in that env)
+d) pip install tensorflow (install tensorflow)
+e) pip install keras (install keras)
+3. Check the installation with the following commands:
+a) python (activate python from command line)
+b) import tensorflow as tf
+c) import keras
+4. pip install nltk
+5. pip install spacy
+6. pip install gensim
+7. pip install stanford-corenlp
+8. pip install fasttext 
+If the imports are successful then exit the environment by the following command:
+deactivate (exit the env)
